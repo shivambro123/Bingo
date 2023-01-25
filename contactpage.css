@@ -1,0 +1,249 @@
+.custompadding{
+    padding:60px;
+}
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    z-index: 1;
+   
+}
+.toppadding{
+    padding:0px 15px;
+}
+.logo-default{
+    display: none;
+}
+ul li a{
+    font-size: 14px !important;
+    color: white !important;
+    padding:20px 15px !important;
+    font-family: "Source Sans Pro", sans-serif;
+
+ 
+}
+ul li a:hover{
+    color:#007bff !important;
+}
+.active{
+    color:#007bff !important;
+
+}
+.icon{
+    /* color:red; */
+    font-size: 20px !important;
+}
+.custom{
+    font-size: 30px !important;
+}
+.text{
+    border:1px solid rgba(0, 0, 0, 0.171);
+}
+@media screen and (min-width:320px) and (max-width:1000px){
+.navbar{
+        background-color: white !important;
+    }
+    .logo-white{
+        display: none;
+    }
+    .logo-default{
+        display: block;
+    }
+    ul li a{
+        padding: 10px 0px !important;
+        color:blue !important;
+    }
+}
+
+
+/* about us */
+
+.head{
+    background-image: url("../../Bingo/images/about-header.jpg");
+    background-size: cover;
+    /* padding:140px 0px; */
+    height:250px;
+    position: relative;
+    text-align: center;
+    
+}
+.overlayback{
+    background-color: rgba(0, 0, 0, 0.378);
+    /* padding:140px 0px; */
+    height:250px;
+
+
+}
+
+
+.head ol{
+    list-style-type: none;
+}
+.current::before{
+    display: inline-block;
+    content: "/";
+    padding-right: 8px;
+    color:#6c757d;
+
+}
+/* .col-lg-6{
+    padding:0px 15px;
+} */
+.head h2{
+color:#ffffff !important;
+font-size: 34px;
+}
+nav .breadcrumb li a{
+    text-decoration: none;
+    color:white;
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .custompadding{
+       padding:0px;
+    }
+}
+
+
+
+
+/* get in touch */
+
+
+.content{
+    padding:10px;
+}
+
+.inlate{
+    height: auto;
+    background-color: white;
+}
+.inlate h3{
+    font-size: 20px;
+}
+.inlate span{
+    font-size: 14px;
+}
+.inlate p{
+    font-size: 16px;
+}
+
+.border{
+    background-color:#007bff;
+    width:70px;
+    height:3px;
+    margin: auto;
+    margin-bottom: 8px;
+}
+.add{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.socialicon{
+    list-style-type: none;
+    padding: 0px;
+}
+.socialicon li{
+    display: inline-block;
+}
+.social .socialicon  li a{
+    border: 1px solid;
+   font-size: 20px !important;
+    color:black !important;
+    padding:10px 20px !important;
+    border-radius: 50%;
+   
+
+}
+input{
+    height:45px !important;
+}
+.sub{
+    background-color: #28abed;
+}
+.social .socialicon  li a:hover{
+    
+    background-color: #28abed;
+}
+.socialicon li a:hover i{
+    
+    color:white;
+}
+
+/* footer */
+
+
+.footer{
+    background-color: #222222;
+    color:white;
+}
+.footer h3{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.integer{
+    color:#bdbdbd;
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer ul li a{
+    margin: 0px;
+    text-decoration: none;
+    color:#bdbdbd !important;
+    padding: 0px !important;
+
+}
+.copyright{
+    background-color: #1b1b1b;
+    padding:30px 0px;
+
+}
+.copyright h5{
+    font-size: 12px;
+    text-align: center;
+    color:#888888;
+    margin-top: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.copyright h6{
+    font-size: 12px;
+    text-align: center;
+    color:#888888;
+    margin-top: 2px;
+    letter-spacing: 2px;
+    
+   
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .copyright h5{
+        margin: 0px;
+        padding: 0px;
+    }
+    .copyright h6{
+        margin: 0px;
+    }
+    .copyright .row{
+        width:317px;
+    }
+}
+
+
+@media scrren and (min-width:320px) and (max-width:480px){
+    .custompadding{
+        padding: 0px;
+    }
+    .row .col-md-12{
+        padding:0px !important;
+    }
+    .overlayback{
+        padding:100px 0px !important;
+    }
+}

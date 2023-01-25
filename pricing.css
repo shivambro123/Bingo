@@ -1,0 +1,287 @@
+.custompadding{
+    padding:60px;
+}
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    z-index: 1;
+   
+}
+.toppadding{
+    padding:0px 15px;
+}
+.logo-default{
+    display: none;
+}
+ul li a{
+    font-size: 14px !important;
+    color: white !important;
+    padding:20px 15px !important;
+    font-family: "Source Sans Pro", sans-serif;
+
+ 
+}
+ul li a:hover{
+    color:#007bff !important;
+}
+.active{
+    color:#007bff !important;
+
+}
+.icon{
+    /* color:red; */
+    font-size: 20px !important;
+}
+.custom{
+    font-size: 30px !important;
+}
+.text{
+    border:1px solid rgba(0, 0, 0, 0.171);
+}
+@media screen and (min-width:320px) and (max-width:1000px){
+.navbar{
+        background-color: white !important;
+    }
+    .logo-white{
+        display: none;
+    }
+    .logo-default{
+        display: block;
+    }
+    ul li a{
+        padding: 10px 0px !important;
+        color:blue !important;
+    }
+}
+
+
+
+/* about us */
+
+.head{
+    background-image: url("../../Bingo/images/about-header.jpg");
+    background-size: cover;
+    /* padding:140px 0px; */
+    height:250px;
+    position: relative;
+    text-align: center;
+    
+}
+.overlayback{
+    background-color: rgba(0, 0, 0, 0.378);
+    /* padding:140px 0px; */
+    height:250px;
+
+
+}
+
+
+.head ol{
+    list-style-type: none;
+}
+.current::before{
+    display: inline-block;
+    content: "/";
+    padding-right: 8px;
+    color:#6c757d;
+
+}
+/* .col-lg-6{
+    padding:0px 15px;
+} */
+.head h2{
+color:#ffffff !important;
+font-size: 34px;
+}
+nav .breadcrumb li a{
+    text-decoration: none;
+    color:white;
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .custompadding{
+       padding:0px;
+    }
+}
+
+
+/* Bingo agency */
+.section3{
+    background-color: #f7f7f7;
+    /* padding: 100px 0px 50px 0px; */
+
+}
+
+.border{
+    background-color:#f7efef;
+    width:70px;
+    height:3px;
+    margin: auto;
+    margin-bottom: 8px;
+}
+.we{
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.checklist{
+    list-style-type: none;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.checklist li{
+    color:#848484;
+    margin-bottom: 14px;
+}
+.learn{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.explore{
+    text-decoration: none;
+    border: 1px solid #28ABE3;
+    padding:12px 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #28ABE3;
+    font-weight: 400;
+
+    
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .section3{
+        padding:10px;
+    }
+}
+
+
+/* Greatest plans */
+.great{
+    background-image: url("../../Bingo/images/pricing-bg.jpg");
+    background-size: cover;
+    padding-bottom: 60px !important;
+    /* position: relative; */
+ 
+
+}
+.great::before{
+    /* background-color: #1b1b1b6c; */
+    content: "";
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+.contentdiv{
+    background-color: white;
+    padding: 30px;
+}
+.contentdiv h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.value{
+    color:#28ABE3;
+    font-size: 50px;
+    padding: 10px 0px;
+}
+.contentdiv p{
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 400;
+ 
+    padding-bottom: 20px;
+}
+.contentdiv ul{
+    list-style-type: none;
+    padding:0px;
+}
+.contentdiv ul li{
+    padding:10px 0px;
+    color:#666;
+    font-weight: 400;
+}
+.great .col-lg-4{
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+
+
+/* footer */
+
+
+.footer{
+    background-color: #222222;
+    color:white;
+}
+.footer h3{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.integer{
+    color:#bdbdbd;
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer ul li a{
+    margin: 0px;
+    text-decoration: none;
+    color:#bdbdbd !important;
+    padding: 0px !important;
+
+}
+.copyright{
+    background-color: #1b1b1b;
+    padding:30px 0px;
+
+}
+.copyright h5{
+    font-size: 12px;
+    text-align: center;
+    color:#888888;
+    margin-top: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.copyright h6{
+    font-size: 12px;
+    text-align: center;
+    color:#888888;
+    margin-top: 2px;
+    letter-spacing: 2px;
+    
+   
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .copyright h5{
+        margin: 0px;
+        padding: 0px;
+    }
+    .copyright h6{
+        margin: 0px;
+    }
+    .copyright .row{
+        width:317px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .custompadding{
+        padding: 0px !important;
+    }
+    .overlayback{
+        padding:100px 0px !important;
+    }
+}
