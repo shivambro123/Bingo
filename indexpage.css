@@ -6,7 +6,8 @@ body{
 }
 nav{
     z-index: 1;
-    background: black !important;
+    /* background: black !important; */
+    background: transparent !important;
 }
 .toppadding{
     padding:0px 15px;
